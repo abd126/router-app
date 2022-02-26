@@ -7,10 +7,11 @@ const Navb = () => {
         <div className='Navbar'>
             <Navbar bg="light" variant="light">
                 <Container>
-                    <Navbar.Brand href="#home" className='Logo'>
+                    <Navbar.Brand className='Logo'>
                       <Link to='/'>
                       <img src={Logo} alt=""  className='Logo'/></Link>
                     </Navbar.Brand>
+                    
                     <Nav className="mr-0">
                         <Nav.Link>
                             <Link to="/">

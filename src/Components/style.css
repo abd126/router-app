@@ -14,9 +14,13 @@
 
 
 
-.slider{
+/* .slider{
+    height: 200px;
 }
 .slider-Carousel{
-    height: 300px;
-    
+
+    height: auto;    
+} */
+ img {
+    height: 700px;
 }

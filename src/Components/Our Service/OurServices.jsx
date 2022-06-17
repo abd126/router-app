@@ -4,7 +4,7 @@ import {Row , Col} from 'react-bootstrap'
 import './style.css'
 const OurServices = () => {
   return (
-    <div className='Our-service'>
+    <div className='Our-service container-fluid'>
       <ServiceCard />
       <ServiceCard />
       <ServiceCard />

@@ -3,10 +3,10 @@ import { Carousel } from 'react-bootstrap'
 import ship from '../Images/Ship.jpg';
 import warehouse from '../Images/Warehouse.jpg';
 import byroad from '../Images/By-road.jpg';
-import './style.css'
+// import './style.css'
 const Slider = () => {
   return (
-    <div className='slider'>
+    <div className='slider container-fluid'>
 
       <Carousel className='slider-Carousel' fade>
         <Carousel.Item>

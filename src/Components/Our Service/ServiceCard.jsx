@@ -1,13 +1,13 @@
 import React from 'react'
 import Pic from '../../Images/Ship.jpg'
 import { Card } from 'react-bootstrap'
-import './style.css'
+import styles from './ourService.module.css'
 
 
 
 const ServiceCard = () => {
     return (
-        <div className='service-card'>
+        <div className={styles.serviceCard}>
             <img src={Pic} alt="" />
             <h3>Heading</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit alias quo, optio dolorum eaque ut corporis molestiae, error nulla sint, tempore iure esse sed animi? Dolorem sed molestiae necessitatibus hic.</p>

@@ -6,7 +6,7 @@
 
 
 
-.Our-service{
+.OurService{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -17,7 +17,7 @@
 
 /* Service Card */
 
-.service-card {
+.serviceCard {
     width: 525px;
     /* height: 400px; */
     /* overflow: hidden; */
@@ -25,7 +25,7 @@
     text-align: center;
 }
 
-.service-card > img {
+.serviceCard > img {
     width: 100%;
     height: auto;
 }

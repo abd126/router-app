@@ -1,8 +1,8 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
-import ship from '../Images/Ship.jpg';
-import warehouse from '../Images/Warehouse.jpg';
-import byroad from '../Images/By-road.jpg';
+import ship from '../Img/Ship.jpg';
+import warehouse from '../Img/Warehouse.jpg';
+import byroad from '../Img/By-road.jpg';
 // import './style.css'
 const Slider = () => {
   return (

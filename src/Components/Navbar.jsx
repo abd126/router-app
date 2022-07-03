@@ -3,7 +3,7 @@ import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import styles from "./navbar.module.css";
 
-import Logo from '../Images/Logo.png'
+import Logo from '../Img/Logo.png'
 const Navb = () => {
     return (
         <div  className="container-fluid" >

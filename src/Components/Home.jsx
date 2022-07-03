@@ -8,8 +8,8 @@ const Home = () => {
 
       <Slider />
       <OurServices />
-      <AboutSection />
-      <OurServices />
+      {/* <AboutSection /> */}
+      {/* <OurServices /> */}
     </div>
   )
 }

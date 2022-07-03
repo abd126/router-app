@@ -6,7 +6,7 @@
 
 .aboutSection {
     /* position: absolute; */
-    background-image: url('../../Images/Warehouse.jpg');
+    background-image: url('../../Img/Warehouse.jpg');
     background-size: cover;
     background-attachment: fixed;
     width: 100%;

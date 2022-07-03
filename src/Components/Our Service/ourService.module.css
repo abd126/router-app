@@ -9,23 +9,28 @@
 .OurService{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    /* padding: 50px; */
+    justify-content: space-around;
+    /* padding: 0 150px; */
+   
     
 
 }
-
+/* @media screen and (min-width: 480px) {
+    .OurService {
+      padding: 0 0;
+    }
+  } */
 /* Service Card */
 
 .serviceCard {
     width: 525px;
     /* height: 400px; */
     /* overflow: hidden; */
-    margin: 20px 3px;
+    margin: 20px 0;
     text-align: center;
 }
 
 .serviceCard > img {
     width: 100%;
-    height: auto;
+    height: 300px;
 }

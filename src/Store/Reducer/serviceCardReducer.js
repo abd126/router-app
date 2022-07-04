@@ -2,43 +2,43 @@ const INITIAL_STATE = {
     cards: [
         {
             id: 1,
-            name: 'man t-shirt summer season',
-            image: '1.jpg',
+            name: 'By Ship',
+            Pic : '1.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur, quo nostrum natus dolor obcaecati reprehenderit reiciendis, repellat omnis voluptates et, dolorem maxime iure sapiente laboriosam quia! Aliquam, vel soluta?"
         },
         {
             id: 2,
-            name: 'man t-shirt summer season',
-            image: '2.jpg',
+            name: 'By Air',
+            Pic : '2.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur, quo nostrum natus dolor obcaecati reprehenderit reiciendis, repellat omnis voluptates et, dolorem maxime iure sapiente laboriosam quia! Aliquam, vel soluta?"
         },
         {
             id: 3,
             name: 'man t-shirt summer season',
-            image: '3.jpg',
+            Pic : '3.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur, quo nostrum natus dolor obcaecati reprehenderit reiciendis, repellat omnis voluptates et, dolorem maxime iure sapiente laboriosam quia! Aliquam, vel soluta?"
         },
         {
             id: 4,
             name: 'man t-shirt summer season',
-            image: '4.jpg',
+            Pic : '4.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur, quo nostrum natus dolor obcaecati reprehenderit reiciendis, repellat omnis voluptates et, dolorem maxime iure sapiente laboriosam quia! Aliquam, vel soluta?"
         },
         {
             id: 5,
             name: 'man t-shirt summer season',
-            image: '5.jpg',
+            Pic: '5.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur, quo nostrum natus dolor obcaecati reprehenderit reiciendis, repellat omnis voluptates et, dolorem maxime iure sapiente laboriosam quia! Aliquam, vel soluta?"
         },
         {
             id: 6,
             name: 'man t-shirt summer season',
-            image: '6.jpg',
+            Pic : '6.jpg',
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aspernatur, quo nostrum natus dolor obcaecati reprehenderit reiciendis, repellat omnis voluptates et, dolorem maxime iure sapiente laboriosam quia! Aliquam, vel soluta?"
         },
 
     ],
-
+    card : {},
 
 
 }

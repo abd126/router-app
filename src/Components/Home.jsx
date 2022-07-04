@@ -1,13 +1,14 @@
 import React from 'react'
 import AboutSection from './About Section/AboutSection';
-import OurServices from './Our Service/OurServices';
+import ServiceCard from './Our Service/ServiceCard';
 import Slider from './Slider';
 const Home = () => {
   return (
-    <div className='home-component container-fluid'>
+    <div className='home-component'>
 
       <Slider />
-      <OurServices />
+  
+      <ServiceCard />
       {/* <AboutSection /> */}
       {/* <OurServices /> */}
     </div>

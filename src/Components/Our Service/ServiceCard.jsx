@@ -11,20 +11,20 @@ const ServiceCard = () => {
   
   
   const {cards} = useSelector(state => state.cardsReducer);
-  console.log(cards, "cstfdd")
+
   return (
-    <Container className='mx-auto'>
+    <Container className={styles.OurService}>
       <Row>
         {cards.map((item, ind) => (
           <Col md={6} key={ind}>
             <Link to={`service_detail/${item.id}`}>
-              <Card className={styles.serviceCard} key={ind}>
-                <Card.Img variant="top" src={`../../images/${cards.image}`} className="w-100" />
+              <Card className={styles.serviceCard}>
+                <Card.Img variant="top" src={`/images/${item.Pic}`} className="w-100" />
                 <Card.Body>
-                  <Card.Title>{item.name}</Card.Title>
-                  <Card.Text>
+                  <Card.Title className={styles.cardTitle}>{item.name}</Card.Title>
+                  {/* <Card.Text>
                     {item.desc}
-                  </Card.Text>
+                  </Card.Text> */}
                 </Card.Body>
               </Card>
             </Link>

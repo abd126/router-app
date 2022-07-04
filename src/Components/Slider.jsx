@@ -6,7 +6,7 @@ import byroad from '../Img/By-road.jpg';
 // import './style.css'
 const Slider = () => {
   return (
-    <div className='slider container-fluid'>
+    <div className='slider'>
 
       <Carousel className='slider-Carousel' fade>
         <Carousel.Item>

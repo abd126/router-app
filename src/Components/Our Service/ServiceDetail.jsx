@@ -1,12 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom'
 
-const ServiceDetail = (props) => {
-    console.log(props , ".......")
-   const {id} = useParams()
+const ServiceDetail = () => {
+  const {id} = useParams();
+  const dispatch = useDispatch();
+  const {card} = useSelector(state => state.cardsReducer);
+  
+  useEffect(() => {
+     dispatch({type: 'PRODUCT', id})
+  }, [id])
+
   return (
     <div>
-      <h1>{id}</h1>
+      <div>
+        <img src={`/images/${card.Pic}`} alt="" />
+      </div>
     </div>
   )
 }

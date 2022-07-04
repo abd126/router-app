@@ -4,7 +4,7 @@ import styles from "./about.module.css";
 const AboutSection = () => {
   return (
 
-    <div className='container-fluid' >
+    <div className='container' >
       <div className={styles.aboutSection}>
         <div className={styles.opacityBg}>
           <div className={styles.details}>
